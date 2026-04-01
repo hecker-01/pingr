@@ -6,13 +6,19 @@
       </button>
       <p class="headline">Imagine this; it's April Fools</p>
       <p class="body">
-        And your smooth-brian forgot to plan anything and now the day's already
-        here, classic. <br />
-        Now don't panic! Just upload your server's icon, download the result,
-        swap it in discord, and watch your entire server lose their minds
-        thinking they all got pinged.
-        <br />
-        You dont have to do anything, yet they suffer, it's absolutely amazing.
+        <span>
+          And your smooth-brian forgot to plan <b>anything</b> and now you're
+          too late, classic.
+        </span>
+        <span>
+          Now don't panic! Just upload your server's icon, download the result,
+          swap it in discord, and watch your entire server lose their minds
+          thinking they all got pinged.
+        </span>
+        <span>
+          You dont have to do anything, yet they suffer, it's absolutely
+          amazing.
+        </span>
       </p>
 
       <p class="sign-off">You're welcome.</p>
@@ -75,6 +81,14 @@ defineEmits(["update:modelValue"]);
   line-height: 1.7;
   color: var(--ctp-subtext1);
   margin-bottom: 18px;
+}
+
+.body span {
+  display: block;
+}
+
+.body span + span {
+  margin-top: 0.55em;
 }
 
 .sign-off {
