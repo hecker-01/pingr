@@ -1,0 +1,32 @@
+{
+  "name": "wordr",
+  "version": "1.0.0",
+  "description": "Convert Markdown files to DOCX",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "heckr.dev <jesse@heckr.dev>",
+  "license": "GPL-2.0-only",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "docx": "^9.6.1",
+    "katex": "^0.16.44",
+    "rehype-katex": "^7.0.1",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.1",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.1.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.4"
+  }
+}
